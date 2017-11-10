@@ -1,0 +1,25 @@
+{
+    "name": "mods/blog_category",
+    "description": "Category for Blog",
+    "authors": [
+        {
+            "name": "Sunel Tr",
+            "email": "sunelbe@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "mods/category":"0.0.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Mods\\Blog\\Category\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "minimum-stability": "dev"
+}
